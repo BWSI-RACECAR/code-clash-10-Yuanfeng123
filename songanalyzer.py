@@ -91,7 +91,7 @@ class Solution:
         res = ""
         for l in range(len(alit_letters)):
             res += "{letter}={number}, ".format(letter = alit_letters[l], number=letter_count[l])
-        return res + "{rhymes} rhyming words".format(rhymes = rhyme_amount)
+        return res + "{rhymes} rhyming words".format(rhymes = rhyme_count)
 
 def main():
     string1 = input()

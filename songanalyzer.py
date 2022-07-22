@@ -71,6 +71,7 @@ class Solution:
                     letter_count[alit_letters.index(words[i][0])] += 1
                 else:
                     alit_letters.append(words[i][0])
+                    letter_count.append(2)
             else:
                 first_letters.append(words[i][0])
 

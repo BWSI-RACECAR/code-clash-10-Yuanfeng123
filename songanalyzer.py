@@ -86,7 +86,7 @@ class Solution:
                 word_endings.append(words[j][-3:])
         
         for k in range(len(rhyme_amount)):
-            rhyme_amount += rhyme_amount[k]
+            rhyme_count += rhyme_amount[k]
 
         res = ""
         for l in range(len(alit_letters)):
